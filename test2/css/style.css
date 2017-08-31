@@ -1,0 +1,118 @@
+@import url(./reset.css);
+body, html, .wrapper, .logo div img, .form li div img {
+  width: 100%;
+  height: 100%; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+input, button {
+  border: none;
+  background: none;
+  outline: none; }
+
+body, html, .wrapper {
+  box-sizing: border-box; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.head {
+  width: 100%;
+  height: .85rem;
+  background: #393a3f;
+  color: #ffffff;
+  font-size: .4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+  .head span:nth-child(1) {
+    width: .99rem;
+    justify-content: center;
+    border-right: 1px solid #000;
+    margin-right: .2rem; }
+  .head span:nth-child(2) {
+    flex: 1;
+    text-align: left; }
+  .head span:nth-child(3) {
+    width: 1rem;
+    margin-left: .2rem; }
+
+.main {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.dialog {
+  width: 100%;
+  height: 100%;
+  background: #818d9b;
+  position: relative;
+  left: 0;
+  top: 0; }
+
+.content {
+  width: 90%;
+  margin-left: 5%;
+  height: 8.80rem;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: .2rem; }
+
+.logo {
+  width: 100%;
+  height: 2.75rem;
+  text-align: center;
+  line-height: .7rem;
+  padding-top: .7rem; }
+  .logo div {
+    width: 2.69rem;
+    height: .88rem;
+    margin: 0 auto; }
+  .logo h2 {
+    font-size: .35rem;
+    color: #4b4f50; }
+
+.form {
+  width: 80%;
+  margin-left: 10%; }
+  .form li {
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    text-indent: .2rem;
+    margin-bottom: .5rem; }
+    .form li div {
+      width: .28rem;
+      height: .34rem;
+      margin-right: .4rem; }
+    .form li:nth-child(3) {
+      padding: 0;
+      border-bottom: none; }
+      .form li:nth-child(3) input {
+        width: 100%;
+        height: .8rem;
+        background: #2fba77;
+        color: #ffffff;
+        font-size: .3rem;
+        border-radius: .1rem; }
+
+/*# sourceMappingURL=style.css.map */
